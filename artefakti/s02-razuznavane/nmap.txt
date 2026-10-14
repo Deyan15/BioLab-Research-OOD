@@ -1,0 +1,13 @@
+# Препис на изхода от екрана (виж nmap-sV.png)
+# Команда: nmap -sV -p- 10.90.0.10 -oN nmap.txt  (изпълнена на gw)
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-10-14 08:15 UTC
+Nmap scan report for 10.90.0.10
+Host is up (0.00059s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+443/tcp  open  http    SimpleHTTPServer 0.6 (Python 3.13.5)
+9999/tcp open  abyss?
+MAC Address: 08:00:27:64:41:C7 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 187.78 seconds

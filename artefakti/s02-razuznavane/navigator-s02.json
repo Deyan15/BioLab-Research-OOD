@@ -1,0 +1,25 @@
+{
+  "name": "BioLab – Сесия 2 разузнаване",
+  "versions": { "attack": "17", "navigator": "5.1.0", "layer": "4.5" },
+  "domain": "enterprise-attack",
+  "description": "Техники, използвани при разузнаването на лабораторията на BioLab Research OOD: от gw (10.90.0.1) към srv (10.90.0.10) с nmap и ffuf.",
+  "filters": { "platforms": ["Linux", "Windows", "macOS", "Network Devices", "PRE"] },
+  "sorting": 0,
+  "layout": { "layout": "side", "aggregateFunction": "average", "showID": true, "showName": true, "showAggregateScores": false, "countUnscored": false, "expandedSubtechniques": "annotated" },
+  "hideDisabled": false,
+  "techniques": [
+    { "techniqueID": "T1595", "tactic": "reconnaissance", "score": 1, "color": "#e60d0d", "comment": "Активно сканиране на LAN1 и srv", "enabled": true, "showSubtechniques": true },
+    { "techniqueID": "T1595.001", "tactic": "reconnaissance", "score": 1, "color": "#e60d0d", "comment": "nmap -sn 10.90.0.0/24 – откриване на живи хостове (2 хоста)", "enabled": true },
+    { "techniqueID": "T1595.003", "tactic": "reconnaissance", "score": 1, "color": "#e60d0d", "comment": "ffuf с common.txt срещу http://10.90.0.10:443 – открити /admin, /backup, /docs, /login", "enabled": true },
+    { "techniqueID": "T1046", "tactic": "discovery", "score": 1, "color": "#e60d0d", "comment": "nmap -sV -p- 10.90.0.10 – отворени 443 (SimpleHTTPServer 0.6, Python 3.13.5) и 9999", "enabled": true }
+  ],
+  "gradient": { "colors": ["#ffffff", "#e60d0d"], "minValue": 0, "maxValue": 1 },
+  "legendItems": [ { "label": "Използвана техника в Сесия 2", "color": "#e60d0d" } ],
+  "metadata": [],
+  "links": [],
+  "showTacticRowBackground": false,
+  "tacticRowBackground": "#dddddd",
+  "selectTechniquesAcrossTactics": true,
+  "selectSubtechniquesWithParent": false,
+  "selectVisibleTechniques": false
+}
