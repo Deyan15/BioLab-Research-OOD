@@ -1,0 +1,6 @@
+[ {
+  "id" : "f3f395ee-9496-462f-b84f-99e5c90c7c7b",
+  "name" : "analysts",
+  "path" : "/analysts",
+  "subGroups" : [ ]
+} ]

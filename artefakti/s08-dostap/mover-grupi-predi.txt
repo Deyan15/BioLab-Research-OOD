@@ -1,0 +1,6 @@
+[ {
+  "id" : "21c73cb3-485e-445f-93a0-f60237e4a979",
+  "name" : "staff",
+  "path" : "/staff",
+  "subGroups" : [ ]
+} ]

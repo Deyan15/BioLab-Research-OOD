@@ -1,0 +1,8 @@
+ИЗДАДЕН ТОКЕН (първите 40 знака): eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwi...
+  iss                  http://127.0.0.1:8080/realms/biolab
+  azp                  h08-test
+  preferred_username   georgi.admin
+  realm_access         {'roles': ['default-roles-biolab', 'offline_access', 'uma_authorization', 'admins']}
+  iat                  1795648135
+  exp                  1795648435
+  валиден (секунди)     300

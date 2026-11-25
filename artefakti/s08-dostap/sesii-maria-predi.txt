@@ -1,0 +1,13 @@
+[ {
+  "id" : "30X5MBn1kGLyX5VjHUHuclJF",
+  "username" : "maria.izsledovatel",
+  "userId" : "67caef23-cbcc-404d-9a54-dabea017147c",
+  "ipAddress" : "127.0.0.1",
+  "start" : 1795648135000,
+  "lastAccess" : 1795648135000,
+  "rememberMe" : false,
+  "clients" : {
+    "76d489ef-c9b8-4e3f-a146-5f272c37b5a8" : "h08-test"
+  },
+  "transientUser" : false
+} ]
