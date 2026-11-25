@@ -1,0 +1,5 @@
+Wed Nov 11 06:26:04 PM EST 2026
+srv
+permitrootlogin without-password
+passwordauthentication yes
+kbdinteractiveauthentication no

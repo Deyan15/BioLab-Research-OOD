@@ -1,0 +1,4 @@
+Warning: Permanently added '127.0.0.1' (ED25519) to the list of known hosts.
+student@127.0.0.1: Permission denied (publickey).
+Nov 11 18:55:30 srv sshd-session[1457]: User root from 10.90.0.1 not allowed because not listed in AllowUsers
+Nov 11 18:58:15 srv sshd-session[1464]: User student from 127.0.0.1 not allowed because not listed in AllowUsers

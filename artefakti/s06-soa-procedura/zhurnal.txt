@@ -1,0 +1,25 @@
+Nov 11 18:08:39 srv sshd-session[1177]: Accepted password for student from 10.90.0.10 port 33884 ssh2
+Nov 11 18:08:39 srv sshd-session[1177]: pam_unix(sshd:session): session opened for user student(uid=1000) by student(uid=0)
+Nov 11 18:11:27 srv sshd-session[1205]: Accepted password for student from 10.90.0.10 port 38428 ssh2
+Nov 11 18:11:27 srv sshd-session[1205]: pam_unix(sshd:session): session opened for user student(uid=1000) by student(uid=0)
+Nov 11 18:18:14 srv sshd-session[1233]: Accepted publickey for student from 10.90.0.1 port 44094 ssh2: ED25519 SHA256:aBIz1+2qbH+E8A8aCX/OK641lHrdVFY6vzuydw+dTLA
+Nov 11 18:18:14 srv sshd-session[1233]: pam_unix(sshd:session): session opened for user student(uid=1000) by student(uid=0)
+Nov 11 18:18:14 srv sshd-session[1233]: pam_unix(sshd:session): session closed for user student
+Nov 11 18:28:18 srv sshd-session[1274]: Accepted publickey for student from 10.90.0.1 port 54454 ssh2: ED25519 SHA256:aBIz1+2qbH+E8A8aCX/OK641lHrdVFY6vzuydw+dTLA
+Nov 11 18:28:18 srv sshd-session[1274]: pam_unix(sshd:session): session opened for user student(uid=1000) by student(uid=0)
+Nov 11 18:30:32 srv sshd-session[1297]: Accepted publickey for student from 10.90.0.1 port 52612 ssh2: ED25519 SHA256:aBIz1+2qbH+E8A8aCX/OK641lHrdVFY6vzuydw+dTLA
+Nov 11 18:30:32 srv sshd-session[1297]: pam_unix(sshd:session): session opened for user student(uid=1000) by student(uid=0)
+Nov 11 18:30:32 srv sshd-session[1297]: pam_unix(sshd:session): session closed for user student
+Nov 11 18:43:48 srv systemd[1]: Reloading ssh.service - OpenBSD Secure Shell server...
+Nov 11 18:43:48 srv systemd[1]: Reloaded ssh.service - OpenBSD Secure Shell server.
+Nov 11 18:43:48 srv sshd[1039]: Received SIGHUP; restarting.
+Nov 11 18:43:48 srv sshd[1039]: Server listening on 0.0.0.0 port 22.
+Nov 11 18:43:48 srv sshd[1039]: Server listening on :: port 22.
+Nov 11 18:47:49 srv sshd-session[1434]: Accepted publickey for student from 10.90.0.1 port 54142 ssh2: ED25519 SHA256:aBIz1+2qbH+E8A8aCX/OK641lHrdVFY6vzuydw+dTLA
+Nov 11 18:47:49 srv sshd-session[1434]: pam_unix(sshd:session): session opened for user student(uid=1000) by student(uid=0)
+Nov 11 18:47:49 srv sshd-session[1434]: pam_unix(sshd:session): session closed for user student
+Nov 11 18:54:24 srv sshd-session[1455]: Connection closed by authenticating user student 10.90.0.1 port 54764 [preauth]
+Nov 11 18:55:30 srv sshd-session[1457]: User root from 10.90.0.1 not allowed because not listed in AllowUsers
+Nov 11 18:55:30 srv sshd-session[1457]: Connection closed by invalid user root 10.90.0.1 port 59308 [preauth]
+Nov 11 18:58:15 srv sshd-session[1464]: User student from 127.0.0.1 not allowed because not listed in AllowUsers
+Nov 11 18:58:15 srv sshd-session[1464]: Connection closed by invalid user student 127.0.0.1 port 57770 [preauth]

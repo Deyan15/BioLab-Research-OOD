@@ -22,4 +22,7 @@
 - [Сесия 1 – Лаборатория](artefakti/s01-laboratoria/topo.md)
 - [Сесия 2 – Разузнаване](artefakti/s02-razuznavane/uprajnenie.md)
 - [Сесия 3 – Контроли и матрица на проследимост](artefakti/s03-kontroli/)
+- [Сесия 4 – Оценка на риска](artefakti/s04-risk/)
+- [Сесия 5 – Политика за сегментация](artefakti/s05-politika/)
+- [Сесия 6 – SoA и процедура](artefakti/s06-soa-procedura/)
 - [Финал](final/)

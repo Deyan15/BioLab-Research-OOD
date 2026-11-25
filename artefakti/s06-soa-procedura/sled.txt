@@ -1,0 +1,6 @@
+Wed Nov 11 06:50:47 PM EST 2026
+srv
+permitrootlogin no
+passwordauthentication no
+kbdinteractiveauthentication no
+allowusers student@10.90.0.1
